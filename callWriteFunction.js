@@ -6,7 +6,7 @@ const callWriteFunction = async () => {
  const provider = new ethers.providers.JsonRpcProvider("https://goerli.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161");
 
  // Create a wallet instance
- const wallet = new ethers.Wallet("0x9C706fb6ef94EcDFd34E3778a96d15B81F0c6213", provider);
+ const wallet = new ethers.Wallet("3602ef23754ba85d2f8d0c77b173d949fdcda5427b7bfd8e235ff0fcc6b88923", provider);
 
  // Create the contract instance and connect it to our wallet
  const contract = new ethers.Contract(
